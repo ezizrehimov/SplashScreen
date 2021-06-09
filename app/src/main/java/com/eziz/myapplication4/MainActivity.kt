@@ -10,7 +10,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 @Suppress("DEPRECATION")
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
-        private val splashScreen = 10000
+        val splashScreen = 10000
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
         supportActionBar?.hide()
